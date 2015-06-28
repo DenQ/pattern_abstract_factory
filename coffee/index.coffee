@@ -1,4 +1,6 @@
 ###
   context
 ###
-console.log 111
+factory = new FactoryCarMercedes()
+greenMercedes = factory.createCarGreen()
+console.dir greenMercedes
