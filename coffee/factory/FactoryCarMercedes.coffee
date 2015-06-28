@@ -1,5 +1,7 @@
 class FactoryCarMercedes extends IFactoryCar
 
-  createCarRed:->
-  createCarGreen:->
-  createCarBlue:->
+  createCarRed:-> new CarMercedesRed()
+
+  createCarGreen:-> new CarMercedesGreen()
+
+  createCarBlue:-> new CarMercedesBlue()

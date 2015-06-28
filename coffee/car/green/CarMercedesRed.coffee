@@ -1,3 +1,3 @@
 class CarMercedesGreen extends ICarGreen
-  type: 'Mercedes'
+  type: "Mercedes"
   color: 'green'

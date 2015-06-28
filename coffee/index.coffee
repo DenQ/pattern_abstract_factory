@@ -2,5 +2,7 @@
   context
 ###
 factory = new FactoryCarMercedes()
-greenMercedes = factory.createCarGreen()
-console.dir greenMercedes
+car = factory.createCarGreen()
+console.log
+  "type": car.type
+  "color": car.color

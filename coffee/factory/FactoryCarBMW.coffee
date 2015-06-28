@@ -1,5 +1,7 @@
 class FactoryCarBMW extends IFactoryCar
 
-  createCarRed:->
-  createCarGreen:->
-  createCarBlue:->
+  createCarRed:-> new CarBMWRed()
+
+  createCarGreen:-> new CarBMWGreen()
+
+  createCarBlue:-> new CarBMWBlue()
