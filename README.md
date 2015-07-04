@@ -11,7 +11,7 @@ For run:
 ```
 node js/app.js
 ```
-Result for BuilderChocolateMilk:
+Result:
 ```
 { type: 'Mercedes', color: 'green' }
 ```
